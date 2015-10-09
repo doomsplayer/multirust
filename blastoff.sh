@@ -302,7 +302,7 @@ EOF
     fi
 
     say "installing stable toolchain"
-    multirust default stable
+    multirust default nightly
     need_ok 'failed to install stable toolchain. if this appears to be a network problem retry with `multirust default stable`'
 
     say "all systems go"
